@@ -17,7 +17,12 @@ nav ul {
     height: 35px;
 }
 nav li {
-    margin: 0 10px;
+    margin: 0 15px;
+    padding: 0 5px;
+}
+nav li:hover {
+    border-bottom:2px solid #12028c;
+    transition: border .2s ease;
 }
 nav li a {
     color: black!important;
@@ -30,10 +35,13 @@ nav li a {
     margin: 0 8px;
     padding: 0 3px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 22px;
+}
+.social-icons a {
+    color: black;
 }
 .search-icon {
-    font-size: 20px;
+    font-size: 22px;
     padding: 5px 0;
     margin-left: 25px;
 }
@@ -91,7 +99,7 @@ footer .col-lg-3 {
     text-align: center;
     padding-top: 50px;
 }
-.footer-links .custom-link div{
+.footer-links .custom-link div {
     padding: 5px 0;
 }
 .footer-social {
@@ -101,18 +109,18 @@ footer .col-lg-3 {
     display: flex;
     justify-content: space-around;
     margin: 15px 0;
-    font-size: 20px;
+    font-size: 22px;
     padding: 0 25px;
 }
 .footer-social .second-line {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 22px;
     padding: 0 50px;
 }
-.first-line .fab:hover, .second-line .fab:hover {
-    transform: scale(1.5);
+.first-line .fab:hover, .second-line .fab:hover, .social-icons:hover {
+    transform: scale(1.2);
     transition: transform .5s ease-in-out;
 }
 .brand-name {
